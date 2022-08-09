@@ -37,7 +37,8 @@ export function allScores() {
       `https://api.football-data.org/v2/matches?dateFrom=${startDate}&dateTo=${endDate}`,
       {
         headers: {
-          "X-Auth-Token": process.env.REACT_APP_API_KEY,
+          // "X-Auth-Token": process.env.REACT_APP_API_KEY,
+          "X-Auth-Token": "78c344381c794ce880b288d279bb81a0",
         },
       }
     )

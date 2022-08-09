@@ -21,7 +21,8 @@ export function fetchNews() {
       "https://newsapi.org/v2/top-headlines?country=gb&category=sports",
       {
         headers: {
-          "X-Api-Key": process.env.REACT_APP_NEWS_API_KEY,
+          //   "X-Api-Key": process.env.REACT_APP_NEWS_API_KEY,
+          "X-Api-Key": "cda6789be9724d95afa72605c61bc232",
         },
       }
     )
