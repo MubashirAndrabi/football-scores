@@ -1,0 +1,15 @@
+.card:hover {
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+  }
+  
+  .card-back {
+    transform: rotateY(180deg);
+  }
+
+  .address-divide::before {
+    float: right;
+    width: calc(100% - 3.6em);
+    height: 1em;
+    content: '';
+  }

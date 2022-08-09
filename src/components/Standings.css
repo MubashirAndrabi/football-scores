@@ -1,0 +1,11 @@
+/* .ant-list-item{
+    padding: 0px !important;
+} */
+
+.ant-table-cell {
+    text-align: center;
+}
+
+.display-none {
+    display: none !important;
+}
